@@ -246,9 +246,13 @@ html,body{
 .places-list{
     padding: 32px 0;
 }
+.place-img:hover{
+    opacity: 0.6;
+}
 
 .place-img{
     width: 100%;
+    
 }
 
 .place-content{
@@ -322,6 +326,10 @@ html,body{
     padding: 12px 17.5px;
     margin: 16px 0;
     float: right;   
+}
+.contact-form .btn-send:hover{
+    background-color: #ccc;
+    color: #000;
 }
 
 /* -------------------Phan chung--------------- */
@@ -468,6 +476,10 @@ html,body{
     text-transform: uppercase;
     font-weight: 500;
     padding: 20px 12px;
+}
+
+.modal-btn:hover{
+    opacity: 0.8;
 }
 
 .modal-footer{
