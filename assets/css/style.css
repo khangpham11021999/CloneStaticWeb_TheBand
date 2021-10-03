@@ -411,6 +411,7 @@ html,body{
     background-color: #fff;
     opacity: 1;
     max-width: calc(100% - 64px);
+    animation: srolldown ease 0.5s;
    
 }
 
@@ -477,4 +478,15 @@ html,body{
 .modal-help a{
     color: #009688;
     
+}
+
+@keyframes srolldown{
+    from{
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
